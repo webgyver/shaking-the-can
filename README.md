@@ -29,7 +29,7 @@
    ```
    sudo apt update
    sudo apt upgrade
-   sudo apt install libsdl2-dev pulseaudio
+   sudo apt install libsdl2-dev pulseaudio git
 
    raspi-config
    # - "5 Localisation Options" -> "L4 WLAN Country" -> ...
@@ -51,7 +51,7 @@
 
    ```
    cd ~/
-   git clone git@github.com:webgyver/shaking-the-can.git
+   git clone https://github.com/webgyver/shaking-the-can.git
    ```
 
 6. Add `~/shaking-the-can/start.sh` at the end of the `~/.bashrc`
