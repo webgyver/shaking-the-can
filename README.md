@@ -31,7 +31,7 @@
    sudo apt upgrade
    sudo apt install libsdl2-dev pulseaudio git
 
-   raspi-config
+   sudo raspi-config
    # - "5 Localisation Options" -> "L4 WLAN Country" -> ...
    # - "1 System Options" -> "S1 Wireless LAN" -> ...
    # - "1 System Options" -> "S5 Boot / Auto Login" -> "B2 Console Autologin"
